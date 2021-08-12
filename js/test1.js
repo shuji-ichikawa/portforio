@@ -2,10 +2,10 @@
 var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0;
     if (windowwidth > 768){
       var responsiveImage = [//PC用の動画と画像
-        {video:{src: ['http://localhost:8080/app_storage/movie/test1.mp4']}},
-        {video:{src: 'http://localhost:8080/app_storage/movie/test2.mp4'}},
-        {video:{src: 'http://localhost:8080/app_storage/movie/test3.mp4'}},
-        {video:{src: 'http://localhost:8080/app_storage/movie/test4.mp4'}}
+        {video:{src: ['http://www.aws-and-infra-web-2209.com/app_storage/movie/test1.mp4']}},
+        {video:{src: 'http://www.aws-and-infra-web-2209.com/app_storage/movie/test2.mp4'}},
+        {video:{src: 'http://www.aws-and-infra-web-2209.com/app_storage/movie/test3.mp4'}},
+        {video:{src: 'http://www.aws-and-infra-web-2209.com/app_storage/movie/test4.mp4'}}
       ];
     } else {
       var responsiveImage = [//タブレットサイズ（768px）以下用の画像
